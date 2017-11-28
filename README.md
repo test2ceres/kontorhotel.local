@@ -1,0 +1,2 @@
+# kontorhotel.local
+Kontorhotel
