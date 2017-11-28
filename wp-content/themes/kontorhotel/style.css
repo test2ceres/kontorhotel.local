@@ -6,3 +6,95 @@ Description: The kontor hotel is tempate custom from twentyfixfteen teamplate. I
 Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
 Text Domain: kontorhotel
 */
+.site {
+    margin: 0;
+}
+.site-inner {
+    max-width: 754px;
+    border-left: 3px solid #c06624;
+}
+.site-header {
+    padding: 0;
+}
+.site-branding {
+    display: inherit;
+    margin: 0;
+}
+body:not(.custom-background-image).admin-bar:before {
+    top: 0;
+}
+body:not(.custom-background-image).admin-bar:after {
+    top: 0;
+}
+.site-description {
+    text-align: center;
+    color: #c06624;
+    line-height: 20px;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+}
+.bg-header-top {
+    margin: 0;
+    width: 517px;
+    height: 87px;
+    padding: 27px 20px 0 10px;
+    background: #ffffff url(images/bg_quote.gif) left top no-repeat;
+    float: right;
+}
+.site-content {
+    padding: 0;
+}
+.left-sidebar {
+    float: left;
+    margin-left: 0;
+    padding: 0;
+    width: 27.2%;
+    min-height: 250px;
+}
+.sidebar {
+    float: right;
+    margin-left: 0;
+}
+.content-area {
+    width: 48%;
+    padding: 10px;
+    background: #ffffff url(images/bg_main.gif) left top no-repeat;
+}
+.entry-content h5 {
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-indent: 10px;
+}
+.entry-content p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 0 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+#content_adbox{
+    border:1px dotted #79573f;
+    padding:0;
+    margin:0 0 0px 0;
+    clear:both;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#content_adbox .adicon{
+    color:#c06624;
+    text-decoration:underline;
+    /*background:url(images/dots.gif) left top no-repeat;*/
+    padding-left:10px;
+}
+.importin {
+    margin: 1px;
+    background: #efe7d4;
+    padding: 7px;
+}
+.widget {
+    border: none;
+}
